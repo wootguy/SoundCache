@@ -13,7 +13,8 @@ class StartSoundMsgParams {
 	int entindex = -1;                 // entity to attach to (-1 = use origin)
 	Vector origin;                     // ignored if entindex >= 0
 	
-	// Combination of SoundFlag values. The following flags are handled by this script:
+	// Combination of SoundFlag values.
+	// The following flags are handled automatically and so you shouldn't set them yourself:
 	// SND_VOLUME, SND_PITCH, SND_ATTENUATION, SND_ENT, SND_ORIGIN, SND_SENTENCE
 	int16 flags = 0;
 	

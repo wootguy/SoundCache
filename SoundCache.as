@@ -1,9 +1,9 @@
-// This plugin requires a symlink for the soundcache folder.
+// This plugin requires a symlink to the soundcache folder.
 // Open a shell in svencoop/scripts/plugins/store/ and run one of the below commands.
 //     Linux:    ln -s ../../../maps/soundcache soundcache
 //     Windows:  mklink /D soundcache ..\..\..\maps\soundcache
 
-dictionary g_sounds; // maps file paths and sentences to indexes
+dictionary g_sounds; // maps file paths to sound indexes
 dictionary g_sentences; // maps sentence names to sentence indexes
 const string g_soundcache_folder = "scripts/plugins/store/soundcache/";
 
